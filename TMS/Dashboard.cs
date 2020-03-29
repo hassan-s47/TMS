@@ -86,5 +86,12 @@ namespace TMS
             //Form3 sr = new Form3();
             sr.Show();
         }
+
+        private void button10_Click(object sender, EventArgs e)
+        {
+            this.Hide();
+            CityWiseReport s = new CityWiseReport();
+            s.Show();
+        }
     }
 }

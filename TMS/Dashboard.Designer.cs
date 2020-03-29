@@ -40,6 +40,7 @@
             this.label3 = new System.Windows.Forms.Label();
             this.button8 = new System.Windows.Forms.Button();
             this.button9 = new System.Windows.Forms.Button();
+            this.button10 = new System.Windows.Forms.Button();
             this.SuspendLayout();
             // 
             // label1
@@ -101,7 +102,7 @@
             this.button5.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button5.Location = new System.Drawing.Point(560, 177);
             this.button5.Name = "button5";
-            this.button5.Size = new System.Drawing.Size(178, 45);
+            this.button5.Size = new System.Drawing.Size(217, 45);
             this.button5.TabIndex = 5;
             this.button5.Text = "Party Ledger";
             this.button5.UseVisualStyleBackColor = true;
@@ -154,7 +155,7 @@
             this.button8.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button8.Location = new System.Drawing.Point(560, 244);
             this.button8.Name = "button8";
-            this.button8.Size = new System.Drawing.Size(178, 45);
+            this.button8.Size = new System.Drawing.Size(217, 45);
             this.button8.TabIndex = 10;
             this.button8.Text = "Stock Report";
             this.button8.UseVisualStyleBackColor = true;
@@ -165,11 +166,22 @@
             this.button9.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
             this.button9.Location = new System.Drawing.Point(560, 307);
             this.button9.Name = "button9";
-            this.button9.Size = new System.Drawing.Size(178, 45);
+            this.button9.Size = new System.Drawing.Size(217, 45);
             this.button9.TabIndex = 11;
             this.button9.Text = "Sale Report";
             this.button9.UseVisualStyleBackColor = true;
             this.button9.Click += new System.EventHandler(this.button9_Click);
+            // 
+            // button10
+            // 
+            this.button10.Font = new System.Drawing.Font("Microsoft Sans Serif", 15.75F, System.Drawing.FontStyle.Bold, System.Drawing.GraphicsUnit.Point, ((byte)(0)));
+            this.button10.Location = new System.Drawing.Point(560, 372);
+            this.button10.Name = "button10";
+            this.button10.Size = new System.Drawing.Size(217, 45);
+            this.button10.TabIndex = 12;
+            this.button10.Text = "City Wise Report";
+            this.button10.UseVisualStyleBackColor = true;
+            this.button10.Click += new System.EventHandler(this.button10_Click);
             // 
             // Dashboard
             // 
@@ -177,6 +189,7 @@
             this.AutoScaleMode = System.Windows.Forms.AutoScaleMode.Font;
             this.BackColor = System.Drawing.SystemColors.ActiveBorder;
             this.ClientSize = new System.Drawing.Size(1264, 681);
+            this.Controls.Add(this.button10);
             this.Controls.Add(this.button9);
             this.Controls.Add(this.button8);
             this.Controls.Add(this.label3);
@@ -213,5 +226,6 @@
         private System.Windows.Forms.Label label3;
         private System.Windows.Forms.Button button8;
         private System.Windows.Forms.Button button9;
+        private System.Windows.Forms.Button button10;
     }
 }

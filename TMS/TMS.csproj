@@ -95,6 +95,12 @@
     <Reference Include="System.Xml" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="CityWiseReport.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CityWiseReport.Designer.cs">
+      <DependentUpon>CityWiseReport.cs</DependentUpon>
+    </Compile>
     <Compile Include="Class1.cs" />
     <Compile Include="cp.cs" />
     <Compile Include="cpvoucher.cs">
@@ -269,6 +275,9 @@
       <DesignTime>True</DesignTime>
       <DependentUpon>TMSDataSet.xsd</DependentUpon>
     </Compile>
+    <EmbeddedResource Include="CityWiseReport.resx">
+      <DependentUpon>CityWiseReport.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="cpvoucher.resx">
       <DependentUpon>cpvoucher.cs</DependentUpon>
     </EmbeddedResource>
